@@ -28,7 +28,7 @@ padding: 0;
   height: 50px;
 font-size: 25px;
 cursor: pointer;
-margin: 3px;
+margin: 7px;
 background-color: rgb(31, 31, 31);
 border: none;
 color: #ffff;
@@ -37,15 +37,20 @@ color: #ffff;
 {
   background-color: black;
 }
+#botao:hover{
+  background-color: rgb(139, 5, 5);
+}
 #resultado
 {
   background-color: white;
-  width: 207px;
+  width: 250px;
   height: 30px;
-  margin: 5px;
+  margin: 7px;
   font-size: 25px;
   color: black;
   text-align: right;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 #del
 {
@@ -68,4 +73,8 @@ color: #ffff;
     border: 0;
     padding: 0;
   }
+}
+#botao
+{
+  background-color: red;
 }
